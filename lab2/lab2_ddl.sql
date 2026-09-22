@@ -1,7 +1,6 @@
 DROP SCHEMA IF EXISTS public CASCADE;
 CREATE SCHEMA public;
 SET search_path TO public;
-
 -- 1–4. Tables, primary keys and NOT NULL constraints
 
 CREATE TABLE Airline_info (
