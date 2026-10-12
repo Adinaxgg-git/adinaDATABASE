@@ -212,3 +212,9 @@ WHERE check_result = 'Not checked'
   AND created_at < '2024-04-01';
 
 SELECT * FROM Baggage_check WHERE check_result = 'Checked' LIMIT 5;
+
+
+SELECT * FROM airport;
+
+INSERT INTO airport(airport_id1,airport_name2,passengers);
+VALUES (1234, 'ALA','ADINA');
